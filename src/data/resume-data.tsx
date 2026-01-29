@@ -16,6 +16,7 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  VietLongLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -27,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Back-End Developer Engineer focused on building products with extra attention to detail",
   summary:
-    "Detail-oriented and enthusiastic Back-End Developer with a strong passion for building robust web applications. Currently pursuing a degree in Software Applications at FPT Polytechnic. Possesses solid foundation in full-stack web development technologies, including Java Spring framework, RESTful APIs, and modern frontend frameworks. Proactive and eager to contribute to innovative web development projects while continuously expanding technical skills.",
+    "System-oriented Back-End Developer transitioning into DevOps, with a strong focus on automation and infrastructure management. Expert in containerizing applications using Docker and orchestrating environments across Ubuntu and Windows Server. Proficient in managing CI/CD workflows for Odoo deployments and optimizing PostgreSQL databases. Passionate about Infrastructure as Code (IaC) and streamlining the software delivery lifecycle through robust DevOps practices.",
   avatarUrl: "https://i.imgur.com/cBxU1V5.jpeg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -72,6 +73,17 @@ export const RESUME_DATA = {
       description:
         "Developed new features, proposed innovative solutions, and improved existing functionality for school workshop projects. Gained hands-on experience with Java Spring ecosystem and collaborative development practices.",
     },
+    {
+      company: "Viet Long Automation and Precision Mechanics Co., Ltd",
+      link: "https://vilapec.com/dich-vu/tu-van-trien-khai-odoo-erp",
+      badges: ["onsite"],
+      title: "Back-End Developer, DevOps, IT Support",
+      logo: VietLongLogo,
+      start: "8/2025",
+      end: "Present",
+      description:
+        "Specializing in Odoo ERP customization and multi-platform infrastructure management. Developed and optimized custom Odoo modules using Python to meet diverse client requirements. Orchestrated and deployed enterprise systems using Docker and Docker Compose on Ubuntu and Windows Server environments. Hardened system security by implementing strict Firewall rules (Port/IP filtering). Currently integrating CI/CD pipelines and Nginx reverse proxy configurations to streamline deployment workflows and enhance system performance according to business needs.",
+    },
   ],
   skills: [
     "Java Spring",
@@ -80,8 +92,13 @@ export const RESUME_DATA = {
     "RESTful API Development",
     "Database Management (Firebase, PostgreSQL, SQL Server)",
     "Frontend Development (React.js)",
-    "Docker (Currently studying)",
-    "DevOps (Currently studying)",
+    "DevOps",
+    "Odoo ERP",
+    "Python",
+    "Docker Compose",
+    "Ubuntu",
+    "Windows Server",
+    "Firewall",
   ],
   projects: [
     {
