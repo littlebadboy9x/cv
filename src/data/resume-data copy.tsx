@@ -23,12 +23,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Trần Việt Vương",
   initials: "TVV",
-  location: "Minh Khai, Bắc Từ Liêm, Hà Nội, Việt Nam",
+  location: "Minh Khai, Bac Tu Liem, Hanoi, Vietnam",
   locationLink: "https://maps.app.goo.gl/MgZaWcXKQFX5R7bS7",
   about:
-    "Kỹ sư Phát triển Back-End tập trung vào xây dựng sản phẩm với sự chú trọng đặc biệt đến chi tiết",
+    "Back-End Developer Engineer focused on building products with extra attention to detail",
   summary:
-    "Lập trình viên Back-End định hướng hệ thống, đang chuyển đổi sang DevOps, với trọng tâm mạnh vào tự động hóa và quản lý hạ tầng. Thành thạo trong việc container hóa ứng dụng sử dụng Docker và điều phối môi trường trên Ubuntu và Windows Server. Có kinh nghiệm quản lý quy trình CI/CD cho triển khai Odoo và tối ưu hóa cơ sở dữ liệu PostgreSQL. Đam mê Hạ tầng dưới dạng Mã (IaC) và tối ưu hóa vòng đời phân phối phần mềm thông qua các phương pháp DevOps vững chắc.",
+    "System-oriented Back-End Developer transitioning into DevOps, with a strong focus on automation and infrastructure management. Expert in containerizing applications using Docker and orchestrating environments across Ubuntu and Windows Server. Proficient in managing CI/CD workflows for Odoo deployments and optimizing PostgreSQL databases. Passionate about Infrastructure as Code (IaC) and streamlining the software delivery lifecycle through robust DevOps practices.",
   avatarUrl: "https://i.imgur.com/cBxU1V5.jpeg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "FPT Polytechnic",
-      degree: "Cử nhân Ứng dụng Phần mềm",
+      degree: "Bachelor's Degree in Software Applications",
       start: "1/2021",
       end: "2025",
     },
@@ -71,27 +71,27 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2023",
       description:
-        "Phát triển các tính năng mới, đề xuất giải pháp sáng tạo và cải thiện chức năng hiện có cho các dự án workshop tại trường. Tích lũy kinh nghiệm thực tế với hệ sinh thái Java Spring và phương pháp phát triển phần mềm theo nhóm.",
+        "Developed new features, proposed innovative solutions, and improved existing functionality for school workshop projects. Gained hands-on experience with Java Spring ecosystem and collaborative development practices.",
     },
     {
       company: "Viet Long Automation and Precision Mechanics Co., Ltd",
       link: "https://vilapec.com/dich-vu/tu-van-trien-khai-odoo-erp",
       badges: ["onsite"],
-      title: "Odoo Back-End Developer, DevOps, IT Support",
+      title: "Back-End Developer, DevOps, IT Support",
       logo: VietLongLogo,
       start: "8/2025",
-      end: "Hiện tại",
+      end: "Present",
       description:
-        "Chuyên về tùy chỉnh Odoo ERP và quản lý hạ tầng đa nền tảng. Phát triển và tối ưu hóa các module Odoo tùy chỉnh bằng Python để đáp ứng yêu cầu đa dạng của khách hàng. Điều phối và triển khai hệ thống doanh nghiệp sử dụng Docker và Docker Compose trên môi trường Ubuntu và Windows Server. Tăng cường bảo mật hệ thống bằng cách triển khai các quy tắc Firewall nghiêm ngặt (lọc Port/IP). Hiện đang tích hợp quy trình CI/CD và cấu hình Nginx reverse proxy để tối ưu hóa quy trình triển khai và nâng cao hiệu suất hệ thống theo nhu cầu kinh doanh.",
+        "Specializing in Odoo ERP customization and multi-platform infrastructure management. Developed and optimized custom Odoo modules using Python to meet diverse client requirements. Orchestrated and deployed enterprise systems using Docker and Docker Compose on Ubuntu and Windows Server environments. Hardened system security by implementing strict Firewall rules (Port/IP filtering). Currently integrating CI/CD pipelines and Nginx reverse proxy configurations to streamline deployment workflows and enhance system performance according to business needs.",
     },
   ],
   skills: [
     "Java Spring",
     "Spring Boot",
-    "Spring Security",
-    "Phát triển RESTful API",
-    "Quản lý Cơ sở dữ liệu (Firebase, PostgreSQL, SQL Server)",
-    "Phát triển Frontend (React.js)",
+    "Spring Security", 
+    "RESTful API Development",
+    "Database Management (Firebase, PostgreSQL, SQL Server)",
+    "Frontend Development (React.js)",
     "DevOps",
     "Odoo ERP",
     "Python",
@@ -112,7 +112,7 @@ export const RESUME_DATA = {
         "SQL Server",
         "RESTful API",
       ],
-      description: "Nền tảng thương mại điện tử cho doanh nghiệp thiết kế nội thất với các tính năng quản lý sản phẩm toàn diện và tương tác khách hàng.",
+      description: "An e-commerce platform for interior design business with comprehensive product management and customer interaction features.",
       logo: ConsultlyLogo,
       link: {
         label: "https://github.com/littlebadboy9x/WebStoreX",
@@ -120,7 +120,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Website Thương mại Điện tử Quạt điện FanTech",
+      title: "FanTech Electric Fan E-commerce Website",
       techStack: [
         "Spring Boot",
         "Spring Security",
@@ -130,7 +130,7 @@ export const RESUME_DATA = {
         "SQL Server",
         "RESTful API",
       ],
-      description: "Nền tảng thương mại điện tử đầy đủ tính năng cho FanTech, hỗ trợ bán hàng trực tuyến và tại cửa hàng (POS) với quản lý kho hàng thống nhất, quản lý đơn hàng, tài khoản khách hàng và thanh toán bảo mật.",
+      description: "A fully featured e-commerce platform for FanTech supporting both online and in-store (POS) sales with unified inventory, order management, customer accounts, and secure payments.",
       logo: ConsultlyLogo,
       link: {
         label: "https://github.com/anhq792004/websiteFanTech",
@@ -138,7 +138,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Hệ thống Quản lý Sân Cầu lông",
+      title: "Shuttle Management System",
       techStack: [
         "Spring Boot",
         "Spring Data JPA",
@@ -150,7 +150,7 @@ export const RESUME_DATA = {
         "RESTful API",
         "SQL Server",
       ],
-      description: "Hệ thống quản lý sân cầu lông toàn diện với tính năng đặt sân trực tuyến, quản lý lịch trình và xử lý thanh toán.",
+              description: "A comprehensive badminton court management system with online booking, schedule management, and payment processing capabilities.",
       logo: ConsultlyLogo,
       link: {
         label: "https://github.com/littlebadboy9x/ShuttleSync.git",
