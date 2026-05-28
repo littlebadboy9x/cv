@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       badges: ["onsite"],
       title: "Odoo Back-End Developer, DevOps, IT Support",
       logo: VietLongLogo,
-      start: "8/2025",
+      start: "5/2025",
       end: "Hiện tại",
       description:
         "Chuyên về tùy chỉnh Odoo ERP và quản lý hạ tầng đa nền tảng. Phát triển và tối ưu hóa các module Odoo tùy chỉnh bằng Python để đáp ứng yêu cầu đa dạng của khách hàng. Điều phối và triển khai hệ thống doanh nghiệp sử dụng Docker và Docker Compose trên môi trường Ubuntu và Windows Server. Tăng cường bảo mật hệ thống bằng cách triển khai các quy tắc Firewall nghiêm ngặt (lọc Port/IP). Hiện đang tích hợp quy trình CI/CD và cấu hình Nginx reverse proxy để tối ưu hóa quy trình triển khai và nâng cao hiệu suất hệ thống theo nhu cầu kinh doanh.",
