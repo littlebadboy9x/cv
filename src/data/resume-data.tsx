@@ -26,9 +26,9 @@ export const RESUME_DATA = {
   location: "Minh Khai, Bắc Từ Liêm, Hà Nội, Việt Nam",
   locationLink: "https://maps.app.goo.gl/MgZaWcXKQFX5R7bS7",
   about:
-    "Kỹ sư Phát triển Back-End tập trung vào xây dựng sản phẩm với sự chú trọng đặc biệt đến chi tiết",
+    "Lập trình viên & Quản trị hệ thống Odoo ERP với chứng chỉ Odoo v19, chuyên sâu phát triển module và vận hành hệ thống",
   summary:
-    "Lập trình viên Back-End định hướng hệ thống, đang chuyển đổi sang DevOps, với trọng tâm mạnh vào tự động hóa và quản lý hạ tầng. Thành thạo trong việc container hóa ứng dụng sử dụng Docker và điều phối môi trường trên Ubuntu và Windows Server. Có kinh nghiệm quản lý quy trình CI/CD cho triển khai Odoo và tối ưu hóa cơ sở dữ liệu PostgreSQL. Đam mê Hạ tầng dưới dạng Mã (IaC) và tối ưu hóa vòng đời phân phối phần mềm thông qua các phương pháp DevOps vững chắc.",
+    "Lập trình viên & Quản trị hệ thống Odoo ERP chuyên sâu với chứng chỉ Odoo v19 Certified. Thành thạo lập trình, tùy biến module Odoo bằng Python, XML, PostgreSQL đáp ứng sát sao các quy trình nghiệp vụ doanh nghiệp. Có năng lực quản trị, phân quyền, cấu hình và vận hành tối ưu hệ thống Odoo toàn diện. Thành thạo xây dựng và điều phối hệ thống Multi-Agent AI: phân vai AI theo chức năng (Developer, Reviewer, QA, Manager), thiết lập luồng phê duyệt và kiểm soát chất lượng tự động giữa các agent — giúp một người thực hiện khối lượng công việc của cả một team. Bên cạnh đó, có nền tảng vững chắc về Back-End, Linux và Docker hỗ trợ triển khai và bảo trì hệ thống ổn định.",
   avatarUrl: "https://i.imgur.com/cBxU1V5.jpeg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -63,6 +63,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Viet Long Automation and Precision Mechanics Co., Ltd",
+      link: "https://vilapec.com/dich-vu/tu-van-trien-khai-odoo-erp",
+      badges: ["onsite", "Odoo v19 Certified"],
+      title: "Odoo Developer & Odoo Administrator",
+      logo: VietLongLogo,
+      start: "5/2025",
+      end: "Hiện tại",
+      description:
+        "Phát triển và tùy biến chuyên sâu các module Odoo ERP bằng Python, XML và cơ sở dữ liệu PostgreSQL theo yêu cầu nghiệp vụ doanh nghiệp. Quản trị và vận hành toàn diện hệ thống Odoo: cấu hình hệ thống, phân quyền người dùng, sao lưu và phục hồi dữ liệu, giám sát và tối ưu hiệu năng. Đạt chứng chỉ Odoo v19 Certified, thành thạo các tính năng mới và best practices của Odoo 19 trong phát triển và quản trị hệ thống ERP.",
+    },
+    {
       company: "School Project Workshop",
       link: "ap.poly.edu.vn",
       badges: ["onsite"],
@@ -73,32 +84,24 @@ export const RESUME_DATA = {
       description:
         "Phát triển các tính năng mới, đề xuất giải pháp sáng tạo và cải thiện chức năng hiện có cho các dự án workshop tại trường. Tích lũy kinh nghiệm thực tế với hệ sinh thái Java Spring và phương pháp phát triển phần mềm theo nhóm.",
     },
-    {
-      company: "Viet Long Automation and Precision Mechanics Co., Ltd",
-      link: "https://vilapec.com/dich-vu/tu-van-trien-khai-odoo-erp",
-      badges: ["onsite"],
-      title: "Odoo Back-End Developer, DevOps, IT Support",
-      logo: VietLongLogo,
-      start: "5/2025",
-      end: "Hiện tại",
-      description:
-        "Chuyên về tùy chỉnh Odoo ERP và quản lý hạ tầng đa nền tảng. Phát triển và tối ưu hóa các module Odoo tùy chỉnh bằng Python để đáp ứng yêu cầu đa dạng của khách hàng. Điều phối và triển khai hệ thống doanh nghiệp sử dụng Docker và Docker Compose trên môi trường Ubuntu và Windows Server. Tăng cường bảo mật hệ thống bằng cách triển khai các quy tắc Firewall nghiêm ngặt (lọc Port/IP). Hiện đang tích hợp quy trình CI/CD và cấu hình Nginx reverse proxy để tối ưu hóa quy trình triển khai và nâng cao hiệu suất hệ thống theo nhu cầu kinh doanh.",
-    },
   ],
   skills: [
-    "Java Spring",
-    "Spring Boot",
-    "Spring Security",
-    "Phát triển RESTful API",
-    "Quản lý Cơ sở dữ liệu (Firebase, PostgreSQL, SQL Server)",
-    "Phát triển Frontend (React.js)",
-    "DevOps",
-    "Odoo ERP",
+    "Odoo ERP (v16 - v19)",
+    "Odoo v19 Certified",
+    "Odoo Module Development",
+    "Odoo Administration & Operations",
     "Python",
-    "Docker Compose",
-    "Ubuntu",
-    "Windows Server",
-    "Firewall",
+    "PostgreSQL",
+    "XML / QWeb",
+    "RESTful API & Odoo Web Services",
+    "AI Agent Orchestration (Multi-Agent Systems)",
+    "Docker & Docker Compose",
+    "Linux / Ubuntu",
+    "Git",
+    "Java Spring Boot",
+    "Spring Security",
+    "Spring JPA",
+    "SQL Server",
   ],
   projects: [
     {
